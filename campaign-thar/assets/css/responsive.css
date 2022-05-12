@@ -1,0 +1,514 @@
+@media(max-width: 1440px){
+    .thar-midle{
+        height: 880px;
+    }
+}
+
+@media(max-width: 991px){
+    .navbar-collapse{
+        flex-basis: auto;
+        flex-grow: inherit;
+    }
+    .navbar-nav .nav-link{
+        padding: 10px;
+    }
+    .hero-text h2{
+        font-size: 20px;
+    }
+    .hero-text h2 span{
+        font-size: 35px;
+    }
+    .sub-papers span{
+        font-size: 12px;
+    }
+    .spec-img{
+        display: none;
+    }
+    .spec-content-inner{
+        margin: 25px 0;
+    }
+    .spec-content-inner h1{
+        text-align: center;
+        margin-left: 0;
+    }
+    .spec-content-inner h1::after{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .course-card-img{
+        width: 100%;
+        height: 220px;
+    }
+    .course-card-content{
+        width: 100%;
+    }
+    .single-adrenox{
+        flex-direction: column;
+    }
+    .single-adrenox .adrenox-img,
+    .single-adrenox .adrenox-content{
+        flex: 100%;
+    }
+    .adrenox-slider .owl-nav{
+        bottom: 60px;
+    }
+    .adrenox-content .text h3{
+        max-width: 280px;
+    }
+    /* .hero{
+        background-image: url(../images/bg/banner.jpg);
+    }
+    .hero-img{
+        display: block;
+    } */
+    .head-price{
+        padding-left: 40px;
+    }
+    .feature-box{
+        margin-bottom: 50px;
+    }
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+    .contact-footer{
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    .highlight-img{
+        height: 500px;
+    }
+    .highlight-content{
+        height: 500px;
+    }
+    .img-variant{
+        height: 500px;
+    }
+    .variants-area{
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .variants-details{
+        order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: inherit;
+    }
+    .variant-img{
+        order: 2;
+    }
+    .variant-slider{
+        max-width: 390px;
+        right: inherit;
+    }
+
+}
+
+@media(max-width: 767px){
+    .hero:after{
+        display: none;
+    }
+    .hero-text{
+        padding-top: 40px;
+    }
+    .text-left-767{
+        text-align: left !important;
+    }
+    .contact-img{
+        margin-top: 20px;
+    }
+    .form-box form{
+        display: block;
+    }
+    form input.inp{
+        margin-bottom: 10px;
+    }
+    .course-section{
+        margin-top: 170px;
+    }
+    .about-content{
+        padding-top: 20px;
+    }
+    /* .banner-form .enq-form{
+        padding: 20px 10px 40px;
+    } */
+    .modal-left{
+        width: 100%;
+        height: 350px;
+        display: none;
+    }
+    .modal-right{
+        padding: 40px 30px 60px;
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .modal-body button.close{
+        top: 0px;
+    }
+    .modal-body button.close i{
+        background: #fff;
+    }
+    /* .modal-heading{
+        display: none;
+    } */
+    .modal-header-767{
+        display: block !important;
+        position: absolute;
+        color: #fff;
+        top: 52px;
+        left: 50%;
+        z-index: 9999;
+        transform: translate(-50%,-50%);
+    }
+    .modal-header-767 h3{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .book-btn{
+        display: none;
+    }
+    .navbar-brand img{
+        max-width: 150px;
+    }
+    .modal-heading{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .modal-right form{
+        margin-top: 70px;
+    }
+    .book-btn2{
+        display: block;
+    }
+    .modal-body button.close i{
+        border: none;
+    }
+    .modal-heading h3::before{
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        background: linear-gradient(to right, #e41c38 0%, transparent 100%);
+        z-index: 99;
+        bottom: -12px;
+    }
+}
+
+@media(max-width: 575px){
+    .navbar-nav li a{
+        font-size: 12px;
+    }
+    .navbar-brand:last-child{
+        padding-left: 0px;
+        margin-top: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 100%;
+        margin-right: 0;
+    }
+    .navbar-brand img{
+        max-width: 100px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .book-btn{
+        display: none;
+    }
+    .navbar-sticky{
+        display: none;
+    }
+    .hero{
+        height: 530px;
+    }
+    .hero-img img {
+        max-width: 270px;
+        margin-top: 160px
+    }
+    .p-o-md{
+        padding: 0 !important;
+    }
+    .open-md{
+        display: block !important;
+        margin-top: 30px;
+    }
+    .era-area {
+        margin-top: 30px;
+        padding-left: 0;
+        position: relative;
+    }
+    .parts-row{
+        margin: 0 12px;
+        padding: 40px 20px;
+    }
+    .parts-box{
+        margin-bottom: 50px;
+    }
+    .parts-area{
+        padding-bottom: 85px;
+    }
+    .ncap-head .logo img{
+        max-width: 270px;
+    }
+
+    .ncap-head .star img{
+        max-width: 160px;
+    }
+    .ncap-text h1{
+        font-size: 28px;
+    }
+    .ncap-text p{
+        font-size: 16px;
+    }
+    .ncap-img{
+        background-image: none;
+        height: auto;
+        width: 100%;
+    }
+    .ncap-img img{
+        display: block !important;
+    }
+    .modal-heading h3{
+        font-size: 22px;
+    }
+    /* .hero{
+        background-position: 66% center;
+        background-image: url(../images/bg/banner.jpg);
+    } */
+    .hero-img{
+        display: block;
+    }
+    .hero-text {
+        position: relative;
+        background-color: #001333;
+        padding: 25px 50px;
+        max-width: 440px;
+        opacity: 0.8;
+        margin-top: 188px;
+        top: 0;
+    }
+    .hero-logo img{
+        max-width: 150px;
+        margin-top: 0;
+    }
+    .hero-text .hero-head h2,
+    .hero-text .hero-head h2 span{
+        font-size: 20px;
+    }
+    .banner-form{
+        margin-top: -70px;
+    }
+    .banner-form .enq-form{
+        padding: 40px 35px;
+    }
+    .form-head h2{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .form-grp {
+        margin-bottom: 15px;
+    }
+    form input.inp{
+        height: 45px;
+    }
+    .form-grp .submit-form{
+        padding: 12px 40px;
+    }
+    .new-era{
+        background-image: url(../images/bg/new-era.jpg);
+    }
+    .book-btn2{
+        display: block;
+    }
+    .era-img{
+        display: block;
+        margin-top: 40px;
+    }
+    .era-head h2{
+        font-size: 28px;
+    }
+    .new-era{
+        height: 880px;
+    }
+    .adrenox-head h2{
+        font-size: 22px;
+    }
+    .adrenox-content{
+        padding: 50px;
+    }
+    .adrenox-content .count img{
+        max-width: 40px;
+    }
+    .adrenox-content .text h3{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .adrenox-slider .owl-nav{
+        bottom: 130px;
+        right: 15%;
+    }
+    .highlight-img{
+        height: 300px;
+    }
+    .highlight-content{
+        padding: 20px 0;
+        height: 300px;
+    }
+    .highlight-slider .owl-nav{
+        bottom: 25px;
+        left: 10%;
+    }
+    .variant-head h2{
+        font-size: 20px;
+    }
+    .variant-slider{
+        max-width: 340px;
+    }
+    .head-name h2{
+        font-size: 22px;
+    }
+    .head-price {
+        padding-left: 15px;
+    }
+    .variant-text-head{
+        align-items: center;
+    }
+    .highlight-name{
+        bottom: 90px;
+        padding-left: 20px;
+    }
+    .highlight-name h1{
+        font-size: 21px;
+    }
+    .key-content{
+        max-width: 210px;
+    }
+    .key-content h3{
+        font-size: 20px;
+    }
+    .highlight-slider .owl-nav button{
+        width: 40px;
+        height: 40px;
+    }
+    .variant-btn {
+        position: absolute;
+        bottom: inherit;
+        left: 40px;
+        top: 0;
+    }
+    .feature-slider .owl-nav{
+        /* bottom: -100px;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+    }
+    .feature-slider .owl-nav button.owl-prev{
+        position: relative;
+        left: inherit;
+        top: inherit;
+    }
+
+    .feature-slider .owl-nav button.owl-next{
+        position: relative;
+        right: inherit;
+        top: inherit;
+    }
+    .features-area{
+        padding-bottom: 150px;
+    }
+    .variants-details{
+        height: 830px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .modal-dialog{
+        max-width: 500px;
+    }
+}
+
+@media(min-width: 768px){
+    .res-768{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex: 100%;
+    }
+}
+
+@media(max-width: 575px){
+    .thar-midle{
+        height: 350px;
+    }
+    .varian-box{
+        flex-direction: column;
+    }
+    .thar-name{
+        flex: 100%;
+        padding: 50px 20px;
+    }
+    .thar-name .name,
+    .thar-name .rate{
+        margin-bottom: 35px;
+    }
+    .thar-slide-btn {
+        margin-bottom: 0px;
+    }
+    .thar-slide-btn a{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .pl-md-0{
+        padding-left: 0 !important;
+        margin-top: 8px;
+    }
+    .thar-details{
+        padding: 50px;
+    }
+    .feature-box .nav-tabs li{
+        width: 100%;
+    }
+    .div-feature{
+        margin-bottom: 30px;
+    }
+    .variants-areas{
+        margin-top: -140px;
+    }
+    .features-area {
+        padding-bottom: 30px;
+    }
+    .contact-banner{
+        width: initial;
+    }
+    .contact-section {
+        padding: 50px 0 40px;
+    }
+    .contact-inner h1{
+        font-size: 22px;
+    }
+    .contact-footer{
+        flex-direction: column;
+    }
+    .contact-support{
+        margin-bottom: 30px;
+        border-right: none;
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .contact-area{
+        text-align: center;
+    }
+    .footer-bg{
+        padding-bottom: 0;
+    }
+    .contact-footer{
+        margin-bottom: 25px;
+    }
+}
